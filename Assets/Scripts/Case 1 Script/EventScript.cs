@@ -115,9 +115,9 @@ public class EventScript : MonoBehaviour
     // Text events 
 
     public string GetFactText(int index){
-        string[] FactTexts = {"It is within the scope of practice of a Registered Pharmacy Technician (RPhT) to collect information, and it is important to remember that the patient has placed their trust in us to provide them with care.\n\nAn appropriate next action that the RPhT should take is to collect information from Wyatt, and then ask the pharmacist to make a clinical recommendation.",
+        string[] FactTexts = {"It is within the scope of practice of a Registered Pharmacy Technician (RPhT) to collect and verify information, and it is important to remember that the patient has placed their trust in pharmacy professionals to provide them with care.\n\nAn appropriate next action that the RPhT should take is to collect information from Wyatt, and then ask the pharmacist to make a clinical recommendation.",
         "While the Registered Pharmacy Technician (RPhT) can perform triages (assign degree of urgency to determine treatment) and highlight available over-the-counter (OTC) product options, they cannot recommend a product clinically for a specific patient as that is outside their scope of practice.",  
-        "It is within a Registered Pharmacy Technician’s (RPhT) scope of practice to perform technical checks on prescriptions. \n\nThis includes performing technical checks of new prescriptions and refill prescriptions.", 
+        "It is within a Registered Pharmacy Technician’s (RPhT) scope of practice to perform technical checks on prescriptions. This includes performing technical checks on new prescriptions and refill prescriptions.\n\nHowever, a product cannot be released to the patient until the Registered Pharmacist (RPh) has authorized the prescription for therapeutic appropriateness.", 
         "Both Registered Pharmacists (RPh) and Registered Pharmacy Technicians (RPhT) are bound to uphold the Ontario College of Pharmacists Code of Ethics. \n\nThe Ontario College of Pharmacists Code of Ethics is a set of guidelines that aims to ensure the delivery of safe, effective, and ethical pharmaceutical care."};
         if (index >= 0 && index < FactTexts.Length)
             return FactTexts[index];
@@ -140,7 +140,7 @@ public class EventScript : MonoBehaviour
     {
         string[] explanationTexts = { "None", 
         "While the RPhT can perform triages and highlight available over-the-counter (OTC) product options, they cannot recommend a product clinically for a specific patient as that is outside their scope of practice.\n\nOnce the pharmacist has completed their clinical assessment of the patient, they may make a clinical recommendation (e.g., for an OTC product) or refer the patient for further evaluation by another health care professional (e.g., by a physician, nurse practitioner).", 
-        "It is within a Registered Pharmacy Technician’s (RPhT) scope of practice to perform the technical checks on prescriptions. \n\nThis includes performing technical checks of new prescriptions and refill prescriptions.", 
+        "It is within a Registered Pharmacy Technician’s (RPhT) scope of practice to perform the technical checks on prescriptions. This includes performing technical checks on new prescriptions and refill prescriptions.\n\nHowever, a product cannot be released to the patient until the Registered Pharmacist (RPh) has authorized the prescription for therapeutic appropriateness.", 
         "Both Registered Pharmacists (RPh) and Registered Pharmacy Technicians (RPhT) are bound to uphold the Ontario College of Pharmacists Code of Ethics. \n\nThe Ontario College of Pharmacists Code of Ethics is a set of guidelines that aims to ensure the delivery of safe, effective, and ethical pharmaceutical care." };
         if (index >= 0 && index < explanationTexts.Length)
             return explanationTexts[index];

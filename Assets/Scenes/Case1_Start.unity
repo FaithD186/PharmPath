@@ -15046,8 +15046,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'It is within the scope of practice of a Registered Pharmacy Technician
-    (RPhT) to collect information, and it is important to remember that the patient
-    has placed their trust in us to provide them with care.  '
+    (RPhT) to collect and verify information, and it is important to remember that
+    the patient has placed their trust in pharmacy professionals to provide them
+    with care.  '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

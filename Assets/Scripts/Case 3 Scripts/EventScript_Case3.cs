@@ -107,9 +107,9 @@ public class EventScript_Case3 : MonoBehaviour
     // Text events 
 
     public string GetFactText(int index){
-        string[] FactTexts = {"It is within the Registered Pharmacy Technician’s (RPhT) scope of practice to perform the technical product check of a prescription, which includes checking the packaged contents of the prescription vial against the original drug bottle for accuracy.\n\nOnly Registered Pharmacists (RPh) can perform a clinical check of the medication, which includes the checking of drug interactions, allergies, and the appropriateness of the drug prescribed for the patient.",
+        string[] FactTexts = {"It is within the Registered Pharmacy Technician’s (RPhT) scope of practice to perform the technical product check on a prescription, which includes checking the packaged contents of the prescription vial against the original drug bottle for accuracy.\n\nOnly Registered Pharmacists (RPh) can perform a clinical check of the medication, which includes the checking of drug interactions, allergies, and the appropriateness of the drug prescribed for the patient.",
         "The Registered Pharmacy Technician (RPhT) and Registered Pharmacist (RPh) do not need to contact the patient’s parents to obtain permission to proceed with his request given his age.\n\nHealth professionals must determine whether the patient is capable of making informed decisions regarding their health, and if determined to be a mature minor, the parents do not need to be contacted first. There is no stipulated age of consent for medical treatments in Ontario.",  
-        "With additional training, Registered Pharmacists (RPh) may vaccinate patients for Hepatitis A, Hepatitis B, Herpes Zoster, Varicella, Human Papilloma Virus, Typhoid, Rabies, Japanese Encephalitis and Yellow Fever.\n\nRegistered Pharmacy Technicians (RPhT) can administer COVID-19 and influenza vaccines after they complete an Ontario College of Pharmacists (OCP) approved injection training course and register their training with OCP.", 
+        "Registered Pharmacists (RPh) and Registered Pharmacy Technicians (RPhT) can administer COVID-19 and influenza vaccines after they complete an Ontario College of Pharmacists (OCP) approved injection training course and declare their training with OCP.\n\nRegistered Pharmacists (RPh) may also vaccinate patients for Hepatitis A, Hepatitis B, Herpes Zoster, Varicella, Human Papilloma Virus, Typhoid, Rabies, Japanese Encephalitis and Yellow Fever.", 
         "Personal health information can only be disclosed to whomever the patient identifies as being in their circle of care (in this example, the patient’s family doctor) unless the custodian of the health information (the Registered Pharmacist or Registered Pharmacy Technician) believes there is risk of harm to either the patient or someone else."};
         if (index >= 0 && index < FactTexts.Length)
             return FactTexts[index];
@@ -121,7 +121,7 @@ public class EventScript_Case3 : MonoBehaviour
         string[] questionTexts = { "None", 
         "The Registered Pharmacy Technician (RPhT) and Registered Pharmacist (RPh) do not need to contact the patient’s parents to obtain permission to proceed with his request given his age.", 
         "Registered Pharmacists (RPh) in Ontario may administer vaccines to eligible patients.", 
-        "Personal health information can be disclosed to whomever the patient identifies as being in their circle of care, under any circumstances."};
+        "Personal health information can be disclosed to whomever the patient identifies as being in their circle of care."};
         if (index >= 0 && index < questionTexts.Length)
             return questionTexts[index];
         else
@@ -132,7 +132,7 @@ public class EventScript_Case3 : MonoBehaviour
     {
         string[] explanationTexts = { "None", 
         "There is no stipulated age of consent for medical treatments in Ontario.\n\nHealth professionals must determine whether the patient is capable of making informed decisions regarding their health, and if determined to be a mature minor, the parents do not need to be contacted first.", 
-        "With additional training, pharmacists may vaccinate patients for Hepatitis A, Hepatitis B, Herpes Zoster, Varicella, Human Papilloma Virus and Typhoid; administer vaccines for Rabies, Japanese Encephalitis and Yellow Fever.\n\nFor a registered pharmacy technician to administer the COVID-19 vaccine or the influenza vaccine, they must successfully complete an Ontario College of Pharmacists (OCP) approved injection training course and register their training with OCP.", 
+        "Registered Pharmacists (RPh) and Registered Pharmacy Technicians (RPhT) can administer COVID-19 and influenza vaccines after they complete an Ontario College of Pharmacists (OCP) approved injection training course and declare their training with OCP.\n\nRegistered Pharmacists (RPh) may also vaccinate patients for Hepatitis A, Hepatitis B, Herpes Zoster, Varicella, Human Papilloma Virus, Typhoid, Rabies, Japanese Encephalitis and Yellow Fever.", 
         "Personal health information can only be disclosed to whomever the patient identifies as being in their circle of care (in this example, the patient’s family doctor) unless the custodian of the health information (the pharmacist or pharmacy technician) believes there is risk of harm to either the patient or someone else."};
         if (index >= 0 && index < explanationTexts.Length)
             return explanationTexts[index];

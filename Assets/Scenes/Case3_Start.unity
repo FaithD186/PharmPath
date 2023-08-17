@@ -4042,7 +4042,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'When completing a technical check of a prescription, a Registered Pharmacy
+  m_text: 'When completing a technical check on a prescription, a Registered Pharmacy
     Technician (RPhT) can perform the following: '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -16613,7 +16613,7 @@ MonoBehaviour:
   - 2
   - True
   - True
-  - False
+  - True
 --- !u!114 &1860288385
 MonoBehaviour:
   m_ObjectHideFlags: 0
